@@ -13,6 +13,7 @@
 6. [Exemple d'application](#6-exemple-dapplication)  
 7. [Implémentation avec Python](#7-implémentation-avec-python) *(à venir)*
 8. [Conclusion](#conclusion)
+9. [Références](#références)
 
 
 
