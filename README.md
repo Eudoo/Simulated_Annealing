@@ -589,6 +589,5 @@ Pour approfondir vos connaissances sur le recuit simulé, voici les références
 
 ---
 
-**Fin de la présentation**
 
 **Merci de votre attention !**
