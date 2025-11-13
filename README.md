@@ -5,7 +5,7 @@
 
 ## Table des matières
 
-1. [Contexte et Introduction](#-contexte-et-introduction)  
+1. [Contexte et Introduction](#1-contexte-et-introduction)  
 2. [Historique](#-Historique)  
 3. [Principe de la méthode de Metropolis](#-Principe-de-la-méthode-de-Metropolis)  
 4. [Principe de la méthode du recuit simulé](#-Principe-de-la-méthode-du-recuit-simulé)  
