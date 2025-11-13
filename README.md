@@ -8,10 +8,11 @@
 1. [Contexte et Introduction](#1-contexte-et-introduction)  
 2. [Historique](#2-historique)  
 3. [Principe de la méthode de Metropolis](#3-principe-de-la-méthode-de-metropolis)  
-4. [Principe de la méthode du recuit simulé](#4-principe-de-la-méthode-du-recuit-simulé)  
+4. [Principe de la méthode du recuit simulé](#4-principe-du-recuit-simulé)  
 5. [Domaines d'application](#5-domaines-dapplication)  
 6. [Exemple d'application](#6-exemple-dapplication)  
 7. [Implémentation avec Python](#7-implémentation-avec-python) *(à venir)*
+8. [Conclusion](#conclusion)
 
 
 
