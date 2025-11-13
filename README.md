@@ -42,25 +42,14 @@ x ∈ E ⊂ ℝⁿ
 
 ### 1.2 Problématique des problèmes NP-complets
 
-Lorsque nous abordons les problèmes d'optimisation, nous rencontrons rapidement une catégorie particulièrement difficile : les problèmes NP-complets ou NP-difficiles. Ces problèmes posent un défi majeur en raison de leur nature même.
-
-La caractéristique principale de ces problèmes est leur **complexité exponentielle ou factorielle**. Concrètement, cela signifie que le nombre de solutions possibles croît de manière explosive avec la taille du problème. Par exemple, pour un problème à 10 variables, nous pouvons avoir des milliers de solutions possibles, mais pour 20 variables, ce nombre peut atteindre des milliards voire des trillions.
-
-Cette explosion combinatoire rend **impossible l'énumération de toutes les solutions possibles**. Même les ordinateurs les plus puissants aujourd'hui ne peuvent pas explorer exhaustivement l'espace de recherche pour des problèmes de taille réaliste. La capacité de calcul disponible est tout simplement dépassée, peu importe la puissance de la machine utilisée.
-
-Face à cette réalité, il devient **extrêmement difficile, voire impossible, de trouver la solution optimale** avec certitude en un temps raisonnable. C'est ici qu'intervient le besoin de développer des approches alternatives qui, bien qu'elles ne garantissent pas l'optimalité, permettent d'obtenir de bonnes solutions en temps raisonnable.
+Les problèmes d’optimisation dits **NP-complets ou NP-difficiles** représentent une catégorie particulièrement ardue, car leur complexité augmente de façon **exponentielle ou factorielle** avec la taille du problème. Autrement dit, le nombre de solutions possibles croît de manière fulgurante : un problème simple avec quelques variables peut déjà générer des millions de combinaisons, rendant impossible toute exploration exhaustive des solutions, même avec les ordinateurs les plus puissants. Cette explosion combinatoire rend la recherche de la solution optimale pratiquement irréalisable en un temps raisonnable.
 
 ### 1.3 Solution : Les méta-heuristiques
 
-Pour faire face aux problèmes NP-complets, les chercheurs ont développé une approche pragmatique basée sur des **méthodes approchées** appelées heuristiques et méta-heuristiques. Ces méthodes constituent un compromis intelligent entre qualité de la solution et temps de calcul.
+Pour résoudre les problèmes NP-complets, les chercheurs ont adopté une approche pragmatique fondée sur des **méthodes approchées**, regroupant les **heuristiques** et les **méta-heuristiques**. Les heuristiques reposent sur des règles empiriques permettant de trouver rapidement des solutions satisfaisantes, tandis que les méta-heuristiques constituent des cadres plus généraux orientant la recherche de solutions pour divers types de problèmes. Leur principal atout réside dans la **réduction considérable du temps de calcul**, rendant possible le traitement de problèmes de grande taille auparavant insolubles.
 
-Les **heuristiques** sont des règles empiriques ou des stratégies de bon sens qui permettent de trouver rapidement une solution acceptable, même si elle n'est pas optimale. Les **méta-heuristiques** vont plus loin : ce sont des stratégies générales qui guident le processus de recherche et qui peuvent être appliquées à une large gamme de problèmes d'optimisation.
+Cependant, ces méthodes ne garantissent **pas l’obtention de la solution optimale** et ne fournissent souvent aucune indication sur la distance entre la solution trouvée et l’optimum théorique. Malgré cette limite, elles sont très utiles en pratique : obtenir une solution de haute qualité en un temps raisonnable est souvent bien plus avantageux que de rechercher indéfiniment la perfection mathématique.
 
-Ces méthodes présentent un **avantage majeur** : leur **temps de calcul est considérablement réduit** par rapport à une exploration exhaustive. Elles sont rapides et permettent de traiter des problèmes de grande taille qui seraient autrement insolubles. Elles permettent ainsi d'obtenir de bonnes solutions, souvent très proches de l'optimal, en un temps raisonnable.
-
-Cependant, il faut être conscient de leur principale **limitation** : elles **ne garantissent pas l'optimalité** de la solution trouvée. De plus, elles ne fournissent généralement aucune information sur la qualité de la solution obtenue par rapport à l'optimal théorique. Nous ne savons pas à quel point nous sommes proches ou éloignés de la meilleure solution possible.
-
-Malgré cette limitation, dans de nombreux contextes pratiques, obtenir une très bonne solution en quelques minutes ou heures est largement préférable à attendre des années (voire l'éternité) pour obtenir la solution optimale garantie.
 
 ### 1.4 Classification des méta-heuristiques
 
